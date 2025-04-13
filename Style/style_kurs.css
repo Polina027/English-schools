@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+body {
+   margin: 0;
+   color: #340D66;
+font-family: 'Roboto', sans-serif;
+}
+
+                                        /* ШАПКА */
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+
+header{
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+a{
+    font-size: 20px;
+    
+    text-decoration: none;
+    color: #FFFFFF; 
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header_list{
+    display: flex;
+    gap: 81px;
+}
+
+
+ a:hover{
+    color: #FA817B;
+    text-decoration: none;
+    opacity: 0.9s;
+}
+.profil-icon:hover{
+    background-image: url('../img/hover.png');
+    opacity: 0.9s;
+}
+
+.logo{
+   text-transform: uppercase;
+   font-size: 20px;
+   font-weight: 700;
+  
+}  
+.profil-icon{
+    background-image: url('../img/profil.svg');
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+} 
+                                                             /* КУРСЫ */
+.kursi{
+    background-image: url('../img/fon-kurs.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -150px;
+    padding: 94px 0px 40px 0px;
+}
+h1{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 94px;
+    margin-bottom: 31px;
+    text-align: center;
+}
+.vce-kursi{
+    display: flex;
+    justify-content: space-between;
+    width: 1064px;
+    height: 694px;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    margin: 0 auto;
+    margin-bottom: 112px;
+}
+.vce-kursi5{
+    margin-bottom: 270px;
+}
+h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+.zagolovok{
+    margin-top: 46px;
+    margin-bottom: 24px;
+}
+.levo{
+    margin: 0px 0px 0px 26px;
+}
+.pravo{
+    margin: 0px 26px 0px 0px;
+}
+.kratko-o-kurse{
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.kratko-o-kurse1{
+    margin-bottom: 32px;
+}
+li{
+    margin: 15px 0;
+}
+ol{
+    padding-left: 20px;
+   
+}
+li::marker {
+    font-weight: bold;
+  }
+.kol-zanatiy{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+span{
+    font-weight: 700;
+}
+.button{
+    display: flex;
+    margin-top: 52px;
+    font-size: 16px;
+}
+.btn1{
+    width: 288px;
+    height: 52px;
+    border:1px solid #33188b;
+    border-radius: 34px;
+    margin-right: 16px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+.btn2{
+    width: 206px;
+    height: 50px;
+    background-color: #33188b;
+    color: #FFFFFF;
+    border-radius: 34px;
+    font-size: 16px;
+    border: 1px solid #33188b;
+}
+.btn2:hover{
+    background-color: #340D66;
+}
+.btn1:hover{
+    border: 3px solid #33188b;
+}
+/* ФУТЕР */
+footer{
+    color: black;
+    padding: 70px 0;
+    background-color: rgba(217, 217, 217, 0.5);
+}
+footer a{
+    color: black;
+    font-weight: 300;
+    font-size: 18px;
+}
+footer a:hover{
+    color: #33188b;
+    font-weight: 400;
+    opacity: 0.9s;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav{
+    width: 50%;
+}
+
+.footer-li{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 14px;
+}
+.footer-inner-li{
+    margin-top: 14px;
+}
+.footer-opisanie{
+    font-size: 18px;
+    font-weight: 300;
+}
+.footer-li-item + .footer-li-item{
+    margin-top: 10px;
+}
+
+.footer-prava{
+    font-size: 16px;
+    font-weight: 300;
+}
+.footer-li-item{
+    font-weight: 300;
+    font-size: 18px;
+}
+.footer-div{
+    width: 376px;
+}
+.footer-prava{
+    margin-top: 122px;
+}
+
+

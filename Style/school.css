@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+body {
+   margin: 0;
+   color: #340D66;
+   font-family: 'Roboto', sans-serif;
+}
+                                         /* ШАПКА */
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+header{
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header_list{
+    display: flex;
+    gap: 81px;
+}
+ a:hover{
+    color: #FA817B;
+    text-decoration: none;
+    opacity: 0.9s;
+}
+.profil-icon:hover{
+    background-image: url('../img/hover.png');
+    opacity: 0.9s;
+}
+.logo{
+   text-transform: uppercase;
+   font-size: 20px;
+   font-weight: 700;
+}  
+.profil-icon{
+    background-image: url('../img/profil-iconfiol.png');
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+} 
+                                                                                         /* О ШКОЛЕ */
+.zagolovok{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 94px;
+    margin-bottom: 40px;
+}
+.opisanie{
+    font-size: 24px;
+    font-weight: 700;
+}
+                                                                                    /* ПОРТНЁРЫ */
+.portneri-linia{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.port{
+    width: 414px;
+    height: 394px;
+    border-radius: 15px;
+}
+.port1{
+    background-image: url('../img/port1.svg');
+}
+.port2{
+    background-image: url('../img/port2.svg');
+}
+.port3{
+    background-image: url('../img/port3.svg');
+}
+.port4{
+    background-image: url('../img/port4.svg');
+}
+.port5{
+    background-image: url('../img/port5.svg');
+}
+.port6{
+    background-image: url('../img/port6.svg');
+}
+                                                                                        /* ОБРАТНАЯ СВЯЗЬ */
+.zagolovok-center{
+    text-align: center;
+}
+.zagolovok-center-niz{
+    margin-bottom: 14px;
+}
+.zagolovok-center-niz2{
+    margin-bottom: 68px;
+    margin-top: 0px;
+}
+input, textarea{
+    width: 612px;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 36px;
+    font-size: 18px;
+    color: rgba(52, 13, 102, 0.73);
+    background-color: #FFFFFF;
+    border:1px solid #340d66;
+  
+}
+textarea{
+    height: 242px;
+    margin-bottom: 0px;
+}
+input{
+    height: 70px;
+}
+.btn{
+    width: 176px;
+    height: 52px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    background-color: #33188b;
+    display: block; 
+    margin: 0 auto;
+    margin-top: 48px;
+    font-size: 24px;
+    border: 1px solid #33188b;
+}
+.btn:hover{
+    background-color: #340D66;
+}
+                                                                                       /* КОНТАКТЫ */
+.nomer{
+    font-size: 24px;
+    margin-bottom: 70px;
+}
+.socseti{
+    margin-bottom: 270px;
+}
+.cartinka{
+    background-image: url('../img/seti-kartinka.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.seti-text{
+    font-size: 18px;
+    color: #340D66;
+    margin-left: 6px;
+}
+.seti{
+    display: flex;
+    align-items: center;
+    margin-bottom: 36px;
+}
+.seti1{
+    background-image: url('../img/icon-inst.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 87px;
+    height: 87px;
+}
+.seti2{
+    background-image: url('../img/icon-vk.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 87px;
+    height: 87px;
+}
+.seti3{
+    background-image: url('../img/icon-face.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 87px;
+    height: 87px;
+}
+
+                                                                                        /* ФУТЕР */
+ footer{
+    color: black;
+    padding: 70px 0;
+    background-color: rgba(217, 217, 217, 0.5);
+}
+footer a{
+    color: black;
+    font-weight: 300;
+    font-size: 18px;
+}
+footer a:hover{
+    color: #33188b;
+    font-weight: 400;
+    opacity: 0.9s;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav{
+    width: 50%;
+}
+.footer-li{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 14px;
+}
+.footer-inner-li{
+    margin-top: 14px;
+}
+.footer-opisanie{
+    font-size: 18px;
+    font-weight: 300;
+}
+.footer-li-item + .footer-li-item{
+    margin-top: 10px;
+}
+
+.footer-prava{
+    font-size: 16px;
+    font-weight: 300;
+}
+.footer-li-item{
+    font-weight: 300;
+    font-size: 18px;
+}
+.footer-div{
+    width: 376px;
+}
+.footer-prava{
+    margin-top: 122px;
+}

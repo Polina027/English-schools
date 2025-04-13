@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+body {
+   margin: 0;
+   color: #340D66;
+   font-family: 'Roboto', sans-serif;
+}
+                                         /* ШАПКА */
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+header{
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header_list{
+    display: flex;
+    gap: 81px;
+}
+ a:hover{
+    color: #FA817B;
+    text-decoration: none;
+    opacity: 0.9s;
+}
+.profil-icon:hover{
+    background-image: url('../img/hover.png');
+    opacity: 0.9s;
+}
+.logo{
+   text-transform: uppercase;
+   font-size: 20px;
+   font-weight: 700;
+}  
+.profil-icon{
+    background-image: url('../img/profil-iconfiol.png');
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+} 
+
+                                                                                    /*ПРОФИЛЬ*/
+h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+.name-opisanie{
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.icon-name{
+    display: flex;
+    gap: 24px;
+    margin-top: 94px;
+    margin-bottom: 40px;
+}
+.icon-profil-div{
+    background-image: url('../img/profil-profil.png');
+    width: 218px;
+    height: 228px;
+}
+
+                                                                                       /* ПРЕДСТОЯЩИЕ ЗАНЯТИЯ */
+.zagolovok-zanatie{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.start{
+    z-index: 2;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-right: 14px;
+}
+.dostyp{
+    font-size: 16px;
+    color: rgba(52, 13, 102, 0.73);
+    font-weight: 700;
+}
+.ocno-zanatie{
+    display: block; 
+    margin-left: 108px;
+    margin-top: 76px;
+}
+.foto-zanatie{
+    position: relative;
+    width: 1064px;
+    height: 620px;
+    border-radius: 15px;
+    background-image: url('../img/fon-zanatie.svg');
+    /* display: flex;
+    flex-direction: column;
+    justify-content: end; */
+}
+.zapysk{
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    background-image: url('../img/zapysk.png');
+    background-repeat: no-repeat;
+    width: 85px;
+    height: 85px;
+}
+.zapysk:hover{
+    background-image: url('../img/zapysk2.png');
+    width: 97px;
+    height: 97px;
+}
+
+.fiol-plashka{
+
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    width: 1064px;
+    height: 96px;
+    background-color: #6C3BAC;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    z-index: 2;
+    width: 336px;
+    height: 82px;
+    background-color: #33188b;
+    color: #ffffff;
+    border-radius: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 14px;
+    border: 1px solid #33188b;
+}
+.btn:hover{
+    background-color: #340D66;
+}
+                                                                                      /* ЗАПИСИ */
+.zapisi-zagolovok{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 94px; 
+    margin-bottom: 40px;
+}
+.opisanie-zapisi{
+    font-size: 18px;
+    font-weight: 700;
+}
+.vce-zapisi{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.zapysk-zapis{
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    background-image: url('../img/zapysk3.png');
+    background-repeat: no-repeat;
+    width: 38px;
+    height: 38px;
+}
+.zapysk-zapis:hover{
+    background-image: url('../img/zapysk4.png');
+    width: 44px;
+    height: 44px;
+}
+
+.zapis1{
+    position: relative;
+    background-image: url('../img/video1.svg');
+    width: 414px;
+    height: 240px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.zapis2{
+    position: relative;
+    background-image: url('../img/video2.svg');
+    width: 414px;
+    height: 240px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.zapis3{
+    position: relative;
+    background-image: url('../img/video3.svg');
+    width: 414px;
+    height: 240px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+                                                                                      /* ПРОГРЕСС */
+.vce-progress{
+    display: flex;
+    justify-content: space-between;
+}
+.progress-text{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 36px;
+}
+.progress1{
+    background-image: url('../img/progress1.png');
+    width: 350px;
+    height: 350px;
+}
+.progress2{
+    background-image: url('../img/progress2.png');
+    width: 350px;
+    height: 350px;
+}
+.progress3{
+    background-image: url('../img/progress3.png');
+    width: 350px;
+    height: 350px;
+}
+                                                                                     /*ТЕСТЫ */
+.test-opisanie{
+    font-size: 24px;
+    text-align: center;
+}
+.vipolneno{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(52, 13, 102, 0.73);
+    text-align: center;
+    margin-bottom: 270px;
+}
+.tests{
+    width: 326px;
+    height: 326px;
+    background-color: #ffffff;
+    filter:drop-shadow(8px 0px 36.900001525878906px rgba(0.5333333611488342,0.5333333611488342,0.5333333611488342,0.25));
+    border-radius:15px;
+}
+.test1{
+    background-image: url('../img/test1.png');
+    background-size: cover;
+    width: 226px;
+    height: 198px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 13px;
+}
+.test2{
+    background-image: url('../img/test2.png');
+    background-size: cover;
+    width: 226px;
+    height: 198px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 13px;
+}
+.test3{
+    background-image: url('../img/test3.png');
+    background-size: cover;
+    width: 226px;
+    height: 198px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 13px;
+}
+
+                                                                                      /* ФУТЕР */
+ footer{
+    color: black;
+    padding: 70px 0;
+    background-color: rgba(217, 217, 217, 0.5);
+}
+footer a{
+    color: black;
+    font-weight: 300;
+    font-size: 18px;
+}
+footer a:hover{
+    color: #33188b;
+    font-weight: 400;
+    opacity: 0.9s;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav{
+    width: 50%;
+}
+
+.footer-li{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 14px;
+}
+.footer-inner-li{
+    margin-top: 14px;
+}
+.footer-opisanie{
+    font-size: 18px;
+    font-weight: 300;
+}
+.footer-li-item + .footer-li-item{
+    margin-top: 10px;
+}
+
+.footer-prava{
+    font-size: 16px;
+    font-weight: 300;
+}
+.footer-li-item{
+    font-weight: 300;
+    font-size: 18px;
+}
+.footer-div{
+    width: 376px;
+}
+.footer-prava{
+    margin-top: 122px;
+}

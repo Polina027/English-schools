@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+body {
+   margin: 0;
+   color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+                                         /* ШАПКА */
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+
+header{
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+a{
+    font-size: 20px;
+    
+    text-decoration: none;
+    color: #FFFFFF; 
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header_list{
+    display: flex;
+    gap: 81px;
+}
+
+
+ a:hover{
+    color: #FA817B;
+    text-decoration: none;
+    opacity: 0.9s;
+}
+.profil-icon:hover{
+    background-image: url('../img/hover.png');
+    opacity: 0.9s;
+}
+
+.logo{
+   text-transform: uppercase;
+   font-size: 20px;
+   font-weight: 700;
+  
+}  
+.profil-icon{
+    background-image: url('../img/profil.svg');
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+} 
+                                    /* ПРИВЕТСТВЕННАЯ СТРАНИЦА */
+.welcome{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../img/cosmos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    padding: 250px 0;
+    margin-top: -150px;
+}
+h1{
+    font-size: 56px;
+    margin: 0;
+    width: 825px;
+    font-weight: 700;
+}
+.welcome_desk{
+    font-size: 26px;
+    width: 825px;
+    margin-top: 40px;
+}
+
+
+                                               /* НАМ ДОВЕРЯЮТ */
+                                          
+.doverie{
+    color: #340D66;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 94px;
+    margin-bottom: 31px;
+}
+.doverie_zagolovki{
+    color: #340D66;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.doverie_zagolovki-color{
+    color: #FFFFFF;
+}
+.doverie_text{
+    color: #340D66;
+    font-size: 24px;
+    text-align: center;
+   margin-block-start: 0;
+}
+.preim_text{
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    margin-block-start: 0;
+}
+.doverie-tri{
+    display: flex;
+    justify-content: space-between;
+}
+.doverie-tri-blok1{
+    width: 280px;
+    height: 316px;
+    border-radius: 15px;
+    filter:drop-shadow(8px 0px 36.900001525878906px rgba(0.5333333611488342,0.5333333611488342,0.5333333611488342,0.25));
+    background-color: #FFFFFF;
+    
+    
+}
+.doverie-tri-blok2{
+    width: 454px;
+    height: 378px;
+    border-radius: 15px;
+    filter:drop-shadow(8px 0px 36.900001525878906px rgba(0.5333333611488342,0.5333333611488342,0.5333333611488342,0.25));
+    background-color: #FFFFFF;
+}
+.doverie-tri-odin{
+    background-image: url('../img/dover1.svg');
+    background-repeat: no-repeat;
+    width: 213px;
+    height: 184px;
+    display: block;
+    margin: 0 auto;
+   
+}
+.doverie-tri-dva{
+    background-image: url('../img/dover2.svg');
+    background-repeat: no-repeat;
+    width: 248px;
+    height: 216px;
+    display: block;
+    margin: 0 auto;
+}
+.doverie-tri-tri{
+    background-image: url('../img/dover3.svg');
+    background-repeat: no-repeat;
+    width: 213px;
+    height: 184px;
+    display: block;
+    margin: 0 auto;
+   
+}
+.doverie-dva{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 68px;
+}
+.doverie-dva-odin{
+    background-image: url('../img/dover4.svg');
+    background-repeat: no-repeat;
+    width: 161px;
+    height: 156px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.doverie-dva-dva{
+    background-image: url('../img/dover5.svg');
+    background-repeat: no-repeat;
+    width: 213px;
+    height: 184px;
+    display: block;
+    margin: 0 auto;
+}
+
+                                                              /* ПРЕИМУЩЕСТВА */
+.zagolovok_preim{
+    display: flex;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    padding-top: 94px;
+}
+                                                             
+.preimucvistva{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../img/purple.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.preimucvistva-odin{
+    width: 382px;
+    height: 454px;
+    background-color: #ffffff88;
+    border-radius:15px;
+}
+.preimucvistva-div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.preimucvistva-div1{
+    margin-bottom: 80px;
+}
+.preimucvistva-div2{
+    padding-bottom: 40px;
+}
+.preimucvistva-icon-odin{
+    background-image: url('../img/preim1.svg');
+    background-repeat: no-repeat;
+    width: 123px;
+    height: 123px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.preimucvistva-icon-dva{
+    background-image: url('../img/preim2.svg');
+    background-repeat: no-repeat;
+    width: 123px;
+    height: 123px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.preimucvistva-icon-tri{
+    background-image: url('../img/preim3.svg');
+    background-repeat: no-repeat;
+    width: 123px;
+    height: 123px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.preimucvistva-icon-chet{
+    background-image: url('../img/preim4.svg');
+    background-repeat: no-repeat;
+    width: 123px;
+    height: 123px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.preimucvistva-icon-pyt{
+    background-image: url('../img/preim5.svg');
+    background-repeat: no-repeat;
+    width: 123px;
+    height: 123px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.preimucvistva-icon-shest{
+    background-image: url('../img/preim6.svg');
+    background-repeat: no-repeat;
+    width: 123px;
+    height: 123px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+                                                            /* ПРОГРАММЫ */
+.progi{
+    padding-top: 94px;
+    padding-bottom: 40px;
+}
+
+.linia1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.linia11{
+    margin-bottom: 70px;
+}
+.linia12{
+    margin-bottom: 70px;
+}
+
+.programmi_zagolovki{
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+.programmi_opisanie{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 300;
+    margin-top: 12px;
+    
+}
+.programmi_text{
+    font-size: 48px;
+    font-weight: 700;
+    color: #340D66;
+    margin-bottom: 0px;
+    margin-top: 0px;
+   
+}
+.programmi_text2{
+    font-weight: 300;
+    font-size: 48px;
+    color: #340D66;
+    margin: 0 auto;
+    
+}
+.programmi-grid{
+    width: 542px;
+    height: 159px;
+    border-radius: 80px;
+    
+    
+}
+.programmi-grid-text{
+    width: 547px;
+    text-align: center;
+   
+}
+.programmi-grid1{
+    background-image: url('../img/prog1.svg');
+    display: block;
+    
+    text-align: center;
+    margin: 0px;
+    
+}
+.programmi-grid2{
+    background-image: url('../img/prog2.svg');
+    display: block;
+    
+    text-align: center;
+    margin: 0px;
+}
+.programmi-grid3{
+    background-image: url('../img/prog3.svg');
+    display: block;
+  
+    text-align: center;
+    margin: 0px;
+}
+.programmi-grid4{
+    background-image: url('../img/prog4.svg');
+    display: block;
+    
+    text-align: center;
+    margin: 0px;
+    
+}
+.programmi-grid5{
+    background-image: url('../img/prog5.svg');
+    display: block;
+    
+    text-align: center;
+    margin: 0px;
+    
+}
+                                                                /* ПРЕПОДАВАТЕЛИ */
+.prepod{
+    position: relative;
+    padding-top: 94px;
+    background-color: rgba(190, 152, 224, 0.42);
+}
+.container-prepod{
+    position: absolute;
+    background-image: url('../img/mm.png');
+    background-repeat: no-repeat;
+    width: 850px;
+    height: 1200px;
+    bottom: -342px;
+    left: 1050px;
+    
+     /* background-image: url('../img/ddd.png');
+    background-repeat: no-repeat;
+    
+    background-position: bottom right;
+    width: 1280px;
+    height: 920px;  */
+   
+    
+} 
+.zadolovok_prepod{
+    font-weight: 700;
+    font-size: 48px;
+    color: #340D66;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.prepod-name{
+    font-weight: 700;
+    font-size: 28px;
+    color: #340D66;
+    text-align: left;
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
+.prepod-opisanie{
+    font-weight: 700;
+    font-size: 24px;
+    color:#340d66bd;
+    text-align: left;
+}
+.prepod-opisanie1{
+    margin-top: 75px;
+}
+.prepod-opisanie2{
+    margin-bottom: 0px;
+}
+.btn{
+    width: 546px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #33188B;
+    margin-top: 260px;
+    border: 1px solid #33188b;
+    margin-bottom: 40px;
+}
+.btn:hover{
+    background-color: #340D66;
+}
+.btn-content{
+    display: block;
+    margin: 0 auto;
+}
+.text-btn{
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.prepod-strelka{
+    width: 333px;
+    height: 18px;
+    background-image: url('../img/linewh.png');
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+                                                                       /* ДОСТИЖЕНИЯ УЧЕНИКОВ */
+.nadpis-strelka{
+    display: flex;
+    align-items: center;
+}
+.strelka{
+    background-image: url('../img/linefiolrt.png');
+    width: 109px;
+    height: 18px;
+    margin-left: 15px;
+}
+.otziv-zagolovok{
+    width: 366px;
+    height: 366px;
+}
+.dostijenia-linia1{
+    margin-top: 94px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+.dostijenia-linia2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 270px;
+}
+.otziv-podzagolovok{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 0px;
+    color: #340d6694;
+}
+.otzivi_zagolovki{
+    color: #340D66;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.otziv-text{
+    margin-right: 17px;
+    margin-left: 17px;
+    margin-top: 34px;
+    color: #340D66;
+}
+.shapka1{
+    display: flex;
+    align-items: center;
+    margin-left: 17px;
+    margin-top: 13px;
+}
+.shapka-name{
+    margin-left: 18px;
+}
+.otziv1{
+    width: 366px;
+    height: 366px;
+    border: 2px solid #33188b ;
+    border-radius:7px;
+}
+.profil-otzivi{
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profil1{
+    background-image: url('../img/otziv1.svg');
+}
+.profil2{
+    background-image: url('../img/otziv2.svg');
+}
+.profil3{
+    background-image: url('../img/otziv3.svg');
+}
+.profil4{
+    background-image: url('../img/otziv4.svg');
+}
+.profil5{
+    background-image: url('../img/otziv5.svg');
+}
+                                                        /* ФУТЕР */
+footer{
+    color: black;
+    padding: 70px 0;
+    background-color: rgba(217, 217, 217, 0.5);
+}
+footer a{
+    color: black;
+    font-weight: 300;
+    font-size: 18px;
+}
+footer a:hover{
+    color: #33188b;
+    font-weight: 400;
+    opacity: 0.9s;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav{
+    width: 50%;
+}
+
+.footer-li{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 14px;
+}
+.footer-inner-li{
+    margin-top: 14px;
+}
+.footer-opisanie{
+    font-size: 18px;
+    font-weight: 300;
+}
+.footer-li-item + .footer-li-item{
+    margin-top: 10px;
+}
+
+.footer-prava{
+    font-size: 16px;
+    font-weight: 300;
+}
+.footer-li-item{
+    font-weight: 300;
+    font-size: 18px;
+}
+.footer-div{
+    width: 376px;
+}
+.footer-prava{А
+    margin-top: 122px;
+}
+
